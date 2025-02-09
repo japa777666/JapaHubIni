@@ -33,6 +33,13 @@ Tabs.ini:AddButton({
     end 
 })
 
+Tabs.ini:AddButton({ 
+    Title = "Executar Japa Cheat Antigo (Sem Time)", 
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/japa777666/japa3/refs/heads/main/README.md"))() 
+    end 
+})
+
 -- Notificação inicial
 Fluent:Notify({
     Title = "Japa Cheat",
